@@ -19,7 +19,7 @@ const multiply = function(values) {
 };
 
 const power = function(val, power) {
-  // let powSum = Math.pow(val,power); // two methods to write
+  // let powSum = Math.pow(val,power); // two methods to write power logic
   let powSum = val ** power;
   return powSum;
 	
