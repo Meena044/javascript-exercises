@@ -8,12 +8,12 @@ const subtract = function(a, b) {
    return sum;
 };
 
-const sum = function([...args]) {
-  let total= args.reduce((acc, item) => acc + item, 0); 
+const sum = function(arr) {
+  let total= arr.reduce((acc, item) => acc + item, 0); 
   return total;
 };
 
-const multiply = function([...values]) {
+const multiply = function(values) {
     let multiSum = values.reduce((acc,item)=> acc * item, 1 );
     return multiSum;
 };
